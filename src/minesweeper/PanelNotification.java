@@ -154,12 +154,4 @@ public class PanelNotification extends JPanel {
 	}
 
 }
-//This is a Java class named PanelNotification which extends JPanel. It represents the panel used to display game information such as the number of bombs remaining, time elapsed, and the smiley face button to start a new game.
-//
-//The class has several instance variables including p11, p12, p13, lbTime, lbBoom, game, bt, and time. These variables are used to store references to the various components of the panel such as the timer, the smiley face button, and the labels displaying the number of bombs remaining and time elapsed.
-//
-//The class constructor initializes the instance variables and sets up the panel's layout and border. It also sets up the mouse listener for the smiley face button which allows the user to start a new game or restart the current game if it has ended.
-//
-//The class also has two methods named updateLbTime and updateLbBoom which are used to update the labels displaying the time elapsed and number of bombs remaining, respectively.
-//
-//Overall, this class is an important component of the Minesweeper game's user interface as it provides essential game information to the player and allows them to start a new game if desired.
+

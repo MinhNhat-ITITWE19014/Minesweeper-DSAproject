@@ -63,8 +63,3 @@ public class LoadData {
 
 }
 
-//This is a Java class called LoadData that loads images into a HashMap. The images are used for a Minesweeper game, and are stored in a single image file called "minesweeper.png". The class reads in the image file using the ImageIO class and then uses the getSubimage method to extract specific images from the larger image. These smaller images are then added to a HashMap with a String key, so that they can be easily accessed by other parts of the game.
-//
-//The HashMap is declared as a private instance variable and is initialized in the constructor of the class. The constructor loads the "minesweeper.png" image and extracts the smaller images using the getSubimage method. Each small image is added to the HashMap with a corresponding String key.
-//
-//The class also has getter and setter methods for the HashMap, which allow other parts of the game to access or modify the images stored in the HashMap.

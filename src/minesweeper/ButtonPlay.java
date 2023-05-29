@@ -101,16 +101,3 @@ public class ButtonPlay extends JButton {
 
 }
 
-//This code is a Java class called "ButtonPlay" which extends the JButton class. The purpose of this class is to create a custom button for a game interface that displays different images depending on its current state, represented by an integer value called "number".
-//
-//The class has the following attributes:
-//
-//"number": an integer value representing the current state of the button.
-//"p": an instance of a "PanelPlayer" class, which is used to retrieve image resources for the button.
-//The constructor initializes the "number" attribute to -1 and sets the preferred size of the button to a 30x30 pixel dimension.
-//
-//The "paint" method is overridden to paint the button with the appropriate image based on the current "number" state. This method uses the "p" attribute to retrieve images from a resource list and draws them on the button's surface.
-//
-//The "setNumber" method allows the "number" attribute to be set from external classes. This is used to update the button's image based on game state changes.
-//
-//Overall, this class provides a custom button with the ability to display different images based on its current state, which is useful for creating game interfaces with custom graphics.

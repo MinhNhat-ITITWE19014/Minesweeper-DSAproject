@@ -174,14 +174,3 @@ public class GamePanel extends JPanel implements MouseListener {
 
 }
 
-
-//This is a class called GamePanel that extends JPanel and implements the MouseListener interface. It represents the panel that contains the game board and handles user input through mouse events.
-//
-//The class has instance variables such as p1 and p2, which represent two different panels used for displaying game information, world which represents the game board, w, h, and boom, which are the width, height, and number of bombs respectively, and gameFrame, which represents the main game frame.
-//
-//The constructor initializes the world instance variable with the specified width, height, and number of bombs, and sets the layout of the panel to BorderLayout. It also adds p1 and p2 panels to the north and center of the panel respectively.
-//
-//The class implements several methods from the MouseListener interface to handle mouse input from the user. The mousePressed method listens for left and right mouse clicks on the game board, and calls the appropriate methods in the world object to update the game state. It also starts the timer in p1 if it is not already running.
-//
-//The mouseReleased method listens for the release of the mouse button, and updates the smiley face button in p1 to the normal state.
-

@@ -52,8 +52,4 @@ public class PanelPlayer extends JPanel {
 
 }
 
-//This is a Java class named PanelPlayer, which extends the JPanel class. It has two instance variables, game of type GamePanel and arrayButton of type ButtonPlay[][].
-//
-//The constructor takes a GamePanel object as a parameter and sets it as the value of the game instance variable. It then sets the layout of the panel to a GridLayout with dimensions of the width and height of the game. It sets the arrayButton instance variable to the array of ButtonPlay objects retrieved from the World object of the game. It also adds each button in the array to the panel, and adds the current instance of the PanelPlayer class as a MouseListener to each button in the array.
-//
-//The getArrayButton and setArrayButton methods are simple getters and setters for the arrayButton instance variable. The getGame and setGame methods are simple getters and setters for the game instance variable.
+

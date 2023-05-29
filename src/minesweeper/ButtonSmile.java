@@ -69,12 +69,4 @@ public class ButtonSmile extends JButton {
 }
 
 
-//This is a Java code for a custom button class called "ButtonSmile" that extends the "JButton" class. It has several constants defined at the beginning of the class with the values "win", "lose", "press", "wow", and "now" assigned to them.
-//
-//The class also has a private field "p" of type "PanelNotification" and an integer field "stage" which represents the current stage of the button.
-//
-//The constructor of the class takes an object of type "PanelNotification" as an argument, sets the preferred size of the button to 50x50, and initializes the "stage" field to "now".
-//
-//The class overrides the "paint" method of the "JButton" class and uses a switch statement to determine which image to draw based on the current value of the "stage" field. It gets the images from a list of images stored in the "LoadData" object of the "GameFrame" object of the "Game" object of the "PanelNotification" object.
-//
-//Finally, the class provides getter and setter methods for the "stage" field.
+

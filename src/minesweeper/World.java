@@ -366,12 +366,4 @@ public class World {
 	}
 
 }
-//the class World appears to be implementing the game logic for a Minesweeper game. The class contains methods for initializing the game board, processing player moves, and checking for game completion.
-//
-//The World class uses a 2D array to represent the game board, with each element in the array representing a button that can be clicked by the player. The arrayMin array is used to store the locations of the mines on the game board. When a player clicks on a button, the open method is called, which recursively checks the neighboring buttons to see if they need to be opened based on the position of the mines.
-//
-//The clickDouble method is called when the player performs a double-click on a button. This method checks the surrounding buttons and opens them if they do not contain a mine. If any of the surrounding buttons do contain a mine, the method sets the button's number to 12 to indicate that it is a mine.
-//
-//The camCo method is called when the player right-clicks on a button to flag it as a mine. This method sets the arrayCamCo array to true for the corresponding button, indicating that it has been flagged as a mine.
-//
-//The World class also contains several boolean variables that keep track of the game state, such as whether the game is complete or has ended, as well as an integer variable to keep track of the number of mines remaining to be flagged by the player. Finally, the World class contains references to several other objects, such as the ButtonPlay and ButtonSmile classes, which are used to display the game board and game buttons.
+
